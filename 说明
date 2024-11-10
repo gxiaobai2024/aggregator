@@ -1,0 +1,44 @@
+用户名；lovehpjy
+密码；Lovehpjy133
+
+
+
+订阅节点
+https://gist.githubusercontent.com/gxiaobai2024/880cd0756652b0d260eae8ee8c80eba5/raw/clash.yaml
+
+项目地址 https://github.com/gxiaobai2024/aggregator
+
+gxiaobai2024/880cd0756652b0d260eae8ee8c80eba5    账号  id
+
+https://gist.github.com/gxiaobai2024/880cd0756652b0d260eae8ee8c80eba5  账号 id  运行库
+
+https://github.com/settings/tokens?type=beta 
+ 设置
+/
+开发者设置   失效后可以重新设置
+
+
+
+密钥  
+
+
+https://github.com/settings/tokens?type=beta  密码30天后  到 有效期至 2024年12月10日，周二 失效后重新设置
+
+精细化令牌 炒作
+
+视频教程如下
+https://www.youtube.com/watch?v=GXU9TqRn_xA
+文字教程如下 
+github官网注册：https://github.com/
+
+ 项目地址【点击直达】 https://github.com/wzdnzd/aggregator
+
+1，依次开启workflow，比如Collect,Refresh和Checkin
+
+2，创建gist并获取到username/gist_id（记得保存，稍后要用），打开 https://gist.github.com ，随便创建一个，内容随便填
+
+3，回到 Sign in to GitHub · GitHub (https://github.com/settings/tokens?type=beta)点击Generate new token按钮创建 PAT。名字随便填，过期时间选得久一点，重要的是在Account permissions里授予Gists的读写权限，创建好后复制生成的token稍后用
+
+4，到仓库页面的Settings里设置环境变量，变量名为GIST_LINK和GIST_PAT，值分别为第4和5两步获取到的内容
+
+5,启用Action后如果中途你不想搞了，一定要禁用workflow或Action，因为默认每两小时自动执行一次
